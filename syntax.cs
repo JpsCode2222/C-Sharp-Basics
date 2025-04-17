@@ -24,7 +24,12 @@ namespace hello
             /* multiline 
                comments
             */
-            
+
+
+            // Datatype int : concate myAge variable to String and print using Console.Write()
+            int myAge = 23;
+            Console.Write("My age is : " + myAge);
+
            
         }
     }
