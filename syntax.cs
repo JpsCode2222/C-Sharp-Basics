@@ -15,8 +15,16 @@ namespace hello
 
             // Console.WriteLine('String') : write statement end with line
             Console.WriteLine("hello world");
-            
+
             Console.ReadLine();
+
+
+            // ---------------------------------------------------------------------
+            // comments : single line 
+            /* multiline 
+               comments
+            */
+            
            
         }
     }
