@@ -30,6 +30,14 @@ namespace hello
             int myAge = 23;
             Console.Write("My age is : " + myAge);
 
+
+            // Data types : int , float , char , bool , string
+            int age = 23;               // 4 byte
+            float price = 10.00f;       // 4 byte
+            char initial = 'J';         // 2 byte
+            bool isGreat = true;        // 1 bit
+            string name = "user1";      // 2 byte per char
+
            
         }
     }
