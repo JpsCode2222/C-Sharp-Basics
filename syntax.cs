@@ -44,6 +44,14 @@ namespace hello
                 2. Logical && || !
                 3. Comparision == != < > <= >=
             */
+
+            // Math 
+            /*
+                Math.Max(10,20)
+                Math.Min(10,30)
+                Math.sqrt(10)
+                Math.Round(10.0303)
+            */
            
         }
     }
