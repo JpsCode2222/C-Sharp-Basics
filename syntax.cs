@@ -120,6 +120,9 @@ namespace hello
             i++;
         }while(i<11);
 
+        // continue : skip the current execution
+        // break : stop the overall execution
+
         
 
         }
