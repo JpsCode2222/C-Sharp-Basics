@@ -52,6 +52,15 @@ namespace hello
                 Math.sqrt(10)
                 Math.Round(10.0303)
             */
+
+            // String
+            string firstName = "happy";
+            string lastName = "Sing";
+            // concatination with interpolation 
+            Console.WriteLine($"Full name is {firstName + lastName}");
+            Console.WriteLine(firstName[0]);
+            Console.WriteLine(firstName.SubString(3));
+            Console.WriteLine(firstName.IndexOf('h'));
            
         }
     }
