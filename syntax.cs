@@ -103,6 +103,24 @@ namespace hello
                 break;
         }
 
+        // Loops
+        for(int i = 0; i < 11; i++){
+            Console.WriteLine(i+1);
+        }
+
+        int i = 0;
+        while(i < 11){
+            Console.WriteLine(i+1);
+            i++;
+        }
+
+        int j = 0;
+        do{
+            Console.WriteLine(i+1);
+            i++;
+        }while(i<11);
+
+        
 
         }
     }
