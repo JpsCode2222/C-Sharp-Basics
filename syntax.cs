@@ -38,6 +38,12 @@ namespace hello
             bool isGreat = true;        // 1 bit
             string name = "user1";      // 2 byte per char
 
+            // Operators
+            /*
+                1. Assignment + - * / %
+                2. Logical && || !
+                3. Comparision == != < > <= >=
+            */
            
         }
     }
