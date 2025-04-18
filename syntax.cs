@@ -62,6 +62,48 @@ namespace hello
             Console.WriteLine(firstName.SubString(3));
             Console.WriteLine(firstName.IndexOf('h'));
            
+           // Conditional Statment
+           int age = 23;
+           if(age > 18){
+            Console.WriteLine("Eligible for vote");
+           }else{
+            Console.WriteLine("Not eligible for vote");
+           }
+
+
+           string day = 3;
+           if(day == 1){
+            Console.WriteLine("Sunday");
+           }
+           else if(day == 2){
+            Console.WriteLine("Monday");
+           }
+           else{
+            Console.WriteLine("Weekend");
+           }
+
+
+        // switch
+        int month = 2;
+        switch(month){
+            case 1:
+                Console.WriteLine("January");
+                break;
+            
+            case 2:
+                Console.WriteLine("February");
+                break;
+
+            case 3:
+                Console.WriteLine("March");
+                break;
+
+            default:
+                Console.WriteLine("Not a valid month");
+                break;
+        }
+
+
         }
     }
 }
